@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poc-cython"
+version = "0.1.0"
+description = "Cython Proof of Concept with examples."
+authors = ["Luã Bida Vacaro <luabidaa@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Cython = "^0.29.32"
+easycython = "^1.0.7"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.5.0"
+ipykernel = "^6.18.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
