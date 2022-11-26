@@ -2,6 +2,7 @@
 
 #### There are several ways to build Cython code:
 - Use the [Jupyter] notebook or the [Sage] notebook, both of which allow Cython code inline. This is the easiest way to get started writing Cython code and running it.
+- `notebooks/` directory
 
 ##### Example 01 (say_hello)
 - Write a distutils/setuptools setup.py. This is the normal and recommended way.
