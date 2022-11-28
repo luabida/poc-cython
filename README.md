@@ -8,7 +8,7 @@
 - Write a distutils/setuptools setup.py. This is the normal and recommended way.
 - `make build`
 
-##### Example 02 ()
+##### Example 02 (helloworld)
 - Use Pyximport, importing Cython .pyx files as if they were .py files (using distutils to compile and build in the background). This method is easier than writing a setup.py, but is not very flexible. So you’ll need to write a setup.py if, for example, you need certain compilations options.
 
 ##### Example 03 ()
